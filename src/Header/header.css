@@ -1,0 +1,13 @@
+.header1 {
+   margin: 0;
+   background-color: black;
+   padding: 16px; /* Adding padding for illustration purposes */
+   margin-bottom: 64px;
+}
+.header1 h1 {
+   font-family: "Inter" , sans-serif;
+   display: flex;
+   justify-content: center;
+   color: white;
+   font-size: 24px;
+}
