@@ -75,9 +75,10 @@ const handleCompleted= () => {
           <ul>
             <li>Title : <span>{selectedTask ? selectedTask.title : ''} </span></li>
             <li>User Id : <span>{selectedTask ? selectedTask.userId : ''}</span>  </li>
-
+          <div className='buttons'>
             <button className='button delete' onClick={handleDelete}>Delete</button>
             <button className='button completed' onClick={handleCompleted}>Completed</button>
+          </div>
           </ul>
         </div>
     </div>    

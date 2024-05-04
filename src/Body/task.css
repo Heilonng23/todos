@@ -39,6 +39,12 @@
    font-family: "Inter", sans-serif;
    font-weight: 700;
    list-style: none;
+   
+}
+.buttons{
+   display: flex;
+   justify-content: center;
+   justify-items: center;
 }
 .button {
    font-family: "Inter", sans-serif;
