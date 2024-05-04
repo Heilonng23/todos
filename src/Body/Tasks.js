@@ -73,8 +73,8 @@ const handleCompleted= () => {
         </Scroll>
         <div className='details'>
           <ul>
-            <li>Title : <span>{selectedTask ? selectedTask.title : ''} </span></li>
-            <li>User Id : <span>{selectedTask ? selectedTask.userId : ''}</span>  </li>
+            <li>Title : <span>{selectedTask ? selectedTask.title : 'Title of your task'} </span></li>
+            <li>User Id : <span>{selectedTask ? selectedTask.userId : 'Your User Id'}</span>  </li>
           <div className='buttons'>
             <button className='button delete' onClick={handleDelete}>Delete</button>
             <button className='button completed' onClick={handleCompleted}>Completed</button>
