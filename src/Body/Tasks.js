@@ -63,6 +63,7 @@ const handleCompleted= () => {
                onClick={() => setSelectedTask(task)}
                className={task.id === selectedTask?.id ? 'selected' : ''}
                style = {{color: task.completed ? 'green' : 'none' }} 
+              //  this is extra design for completed tasks
                 >
               {task.title}
               </li>
